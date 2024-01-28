@@ -1,0 +1,145 @@
+<div class="container text-center mb-5">
+    <button (click)="downloadPdf()" class="btn btn-primary mb-5 shadow border">Download PDF Resume</button> 
+
+    <div class="pb-2">
+        <accordion [isAnimated]="true" class="shadow">
+            <accordion-group [(isOpen)]="isWorkExperienceOpen">
+                <button accordion-heading class="btn btn-block justify-content-between d-flex w-100">
+                    <div style="visibility: hidden;">></div>
+                    <div class="btn-link">Work Experience</div>
+
+                    <div style="width: 10.9px;">
+                        <div *ngIf="!isWorkExperienceOpen" style="color: white;">></div>
+                    <div *ngIf="isWorkExperienceOpen" style="color: white;">v</div>
+                    
+                    </div>
+                    
+                </button>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Software Engineer</h2>
+                    <h3 class="text-primary" > Emtech House Company</h3>
+    
+                    <ul>
+                        <li>is simply dummy text of the printing and typesetting industry</li>
+                        <li> Lorem Ipsum has been the industry's standard dummy text ever since</li>
+                        <li>the 1500s, when an unknown printer took a galley of type and scrambled </li>
+                        <li> the 1500s, when an unknown printer took a galley of type and scrambled</li>
+                    </ul>
+    
+    
+                </div>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">IT officer Manager</h2>
+                    <h3 class="text-primary">National Water Storage and Harvesting Authority</h3>
+    
+                    <ul>
+                        <li>is simply dummy text of the printing and typesetting industry</li>
+                        <li> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
+                        <li> when an unknown printer took a galley of type and scrambled it to make a type</li>
+                        <li> specimen book. It has survived not only five centuries, but also the leap into electronic</li>
+                    </ul>
+    
+                </div>
+    
+            </accordion-group>
+            <accordion-group [(isOpen)]="isEducationOpen">
+                <button accordion-heading class="btn btn-block justify-content-between d-flex w-100">
+                    <div style="visibility: hidden;">></div>
+                    <div class="btn-link">Education</div>
+
+                    <div style="width: 10.9px;">
+                        <div *ngIf="!isEducationOpen" style="color: white;">></div>
+                    <div *ngIf="isEducationOpen" style="color: white;">v</div>
+                    
+                    </div>
+                    
+                </button>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Bachelor's Of Science Information Technology</h2>
+                    <h3 class="text-primary">The Co-operative University Of Kenya</h3>
+                    <ul>
+                        <li>Graduated from Co-operative Univeristy of Kenya on Dec 02 2022</li>
+                        <li>Graduated with Second Class honors  Upper Division</li>
+                        <li>Active member of the Drama club association</li>
+    
+                    </ul>
+    
+                </div>
+    
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Computer Operating Systems and Maintenance</h2>
+                    <h3 class="text-primary">Unity College Of Proffessional Studies</h3>
+                    <ul>
+                        <li>Graduated from Unity College in 2018</li>
+                        <li>Graduated with A Grade</li>
+    
+                    </ul>
+    
+                </div>
+    
+            </accordion-group>
+            <accordion-group [(isOpen)]="isCertificationOpen">
+                <button accordion-heading class="btn btn-block justify-content-between d-flex w-100">
+                    <div style="visibility: hidden;">></div>
+                    <div class="btn-link">Certifications</div>
+
+                    <div style="width: 10.9px;">
+                        <div *ngIf="!isCertificationOpen" style="color: white;">></div>
+                    <div *ngIf="isCertificationOpen" style="color: white;">v</div>
+                    
+                    </div>
+                    
+                </button>
+                <div style="text-align: left;">
+                    <h3 class="mb-0">Computer Operations and Systems</h3>
+                    <ul>
+                        <li>Obtained the above certificate 2018</li>
+                        <li>Cert No. #092h123344</li>
+                    </ul>
+    
+                </div>
+    
+            </accordion-group>
+            <accordion-group [(isOpen)]="isSkillsOpen">
+                <button accordion-heading class="btn btn-block justify-content-between d-flex w-100">
+                    <div style="visibility: hidden;">></div>
+                    <div class="btn-link">Skills</div>
+
+                    <div style="width: 10.9px;">
+                        <div *ngIf="!isSkillsOpen" style="color: white;">></div>
+                    <div *ngIf="isSkillsOpen" style="color: white;">v</div>
+                    
+                    </div>
+                    
+                </button>
+                <div class="row" style="text-align: left;">
+                <div class="col">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>TypeScript</li>
+                        <li>Python</li>
+                        <li>mySql database management</li>
+                    </ul>
+                     
+                </div>
+                <div class="col">
+                    <h3>Other Skills</h3>
+                    <ul>
+                        <li>Version control via Git</li>
+                        <li>MVC Achitecture</li>
+                        <li>Agile web developement</li>
+                        <li>RestFul Api development principles</li>
+                    </ul>
+    
+                </div>
+                </div>
+    
+            </accordion-group>
+        </accordion>
+    
+
+    </div>
+    
+</div>
+
