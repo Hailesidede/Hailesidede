@@ -27,8 +27,8 @@ export class ResumeComponent implements OnInit {
   downloadPdf(){
     const link = this.renderer.createElement('a');
     link.setAttribute('target','_blank');
-    link.setAttribute('href','/assets/My online resume.txt');
-    link.setAttribute('download','My online resume.txt');
+    link.setAttribute('href','/assets/Untitled (3).pdf');
+    link.setAttribute('download','Untitled(3).pdf');
     link.click();
     link.remove();
 

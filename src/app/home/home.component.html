@@ -1,11 +1,20 @@
-<div class="container">
+<div class="container mb-4">
     <div class="row">
         <!--About me-->
         <div class="col-lg shadow border m-1">
             <div class="text-center">
                 <h2>About Me</h2>
                 <img src="/assets/photo_2023-12-15_12-59-21.jpg" alt="" width="256" height="256" class="rounded-circle">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ab perferendis saepe fugiat illo dignissimos. Illum voluptatem voluptatibus placeat ipsam. Itaque, sunt repellat iste veniam accusamus incidunt impedit labore delectus?</p>
+                <p>Experienced Java Backend Developer with over 2 years of expertise in utilizing Spring Boot to design, develop, and implement robust APIs.I have demonstrated proficiency in technologies such as Spring Security, Spring MVC, Hibernate, and 
+                    various database integrations,AWs cloud services etc. Proven 
+                    track record of contributing to the creation of cutting-edge 
+                    solutions, including the development of an ERP system used 
+                    by major banks and SACCOS, Ecommerce Applications and a 
+                    Sacco management system solution. Seeking to bring my skills 
+                    in Java programming, backend development, and API design to a 
+                    dynamic team, life-long learning , contributing to team success.
+                </p>
+                <small>Tech stack: Java, springboot,Angular, Typescript,Sql and Postgress</small>
             </div>
         </div>
         <!--Featured projects-->
@@ -15,13 +24,15 @@
                 <h4>{{featuredProjects.name}}</h4>
             </div>
 
-            <carousel>
+            <carousel [isAnimated]="true">
                 <div *ngFor="let pictures of featuredProjects.pictures">
-                    <slide><img src={{pictures}} alt="slide" style="display: block;width: 100%;"></slide>
+                    <slide><img src={{pictures}} alt="slide" style="display: block;width: 100%; height: 100%;"></slide>
                 </div>
             </carousel>
             <p class="mt-2">{{featuredProjects.summary}}</p>
-            <p>Vist portfolio section to learn more !</p>
+            <p>Vist portfolio section to learn more !
+                <a href="/portfolio">portfolio</a>
+            </p>
 
         </div>
     </div>
