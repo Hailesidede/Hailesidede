@@ -1,0 +1,41 @@
+Haile Julius Kesekwa 
+
+Bachelors Degree in Information Technology | Java Backend Developer at Em Tech Solutions | GitHub : https://github.com/Hailesidede
+
+phone number : 0741480606 | Current city : Nairobi Kenya | email : juliustelta@gmail.com | linkedIn : www.linkedin.com/in/haile-kesekwa-bbb830263
+
+Objective:
+
+Experienced Java Backend Developer with over 2 years of expertise in utilizing Spring Boot to design, develop, and implement robust APIs.I have demonstrated proficiency in technologies such as Spring Security, Spring MVC, Hibernate, and various database integrations. Proven track record of contributing to the creation of cutting-edge solutions, including the development of an ERP system used by major banks and SACCOS, Ecommerce Applications and a Sacco management solution. Seeking to bring my skills in Java programming, backend development, and API design to a dynamic team, life-long learning , contributing to team success.
+
+Professional Experience:
+
+Java Backend Developer | EmTech solutions | Nairobi,Kenya | 1/06/2023
+
+Designed, developed, and implemented APIs using Spring Boot, ensuring efficiency, security, and scalability.
+Contributed to the successful creation of an ERP system solution currently utilized by major banks and SACCOS.
+Collaborated with frontend teams to understand and incorporate frontend practices for seamless API integration.
+Skills:
+
+Java Programming: Proficient in Java with a focus on backend development using Spring Boot framework.
+Backend Development: Over 2 years of hands-on experience in developing backend solutions for banks, saccos, learning institutions and personal projects.
+Restful API Design: Strong understanding of API design principles and best practices in creation of effective, reliable, and user-friendly Apis.
+Problem-Solving: Proven ability to troubleshoot and resolve complex issues.
+Attention to Detail: Meticulous in ensuring the efficiency and security of developed APIs.
+Achievements:
+
+Developed an ERP system solution currently utilized by major banks and SACCOS, showcasing expertise in backend development and API design.
+Implemented frontend practices in API development, contributing to the creation of robust and seamlessly integrated solutions.
+Education:
+
+Bachelors Degree In Information Technology, The Co-operative University Of Kenya, Graduated 2/12/2022
+
+References:
+
+Available upon request.
+
+I look forward to the opportunity to discuss how my skills and experience align with your team's needs. Thank you for considering my application.
+
+Sincerely,
+
+Haile Julius Kesekwa
